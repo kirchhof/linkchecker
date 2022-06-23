@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>linkchecker &mdash; LinkChecker 10.1.0.post38+g30f16782 documentation</title>
+  <title>linkchecker &mdash; LinkChecker 10.1.0.post41+g58c874f4 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
@@ -17,6 +17,7 @@
         <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
         <script src="../_static/jquery.js"></script>
         <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../_static/doctools.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -34,7 +35,7 @@
             <img src="../_static/logo128x128.png" class="logo" alt="Logo"/>
           </a>
               <div class="version">
-                10.1.0.post38+g30f16782
+                10.1.0.post41+g58c874f4
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -351,13 +352,13 @@
            <div itemprop="articleBody">
              
   <section id="linkchecker">
-<h1>linkchecker<a class="headerlink" href="#linkchecker" title="Permalink to this headline"></a></h1>
+<h1>linkchecker<a class="headerlink" href="#linkchecker" title="Permalink to this heading"></a></h1>
 <section id="synopsis">
-<h2>SYNOPSIS<a class="headerlink" href="#synopsis" title="Permalink to this headline"></a></h2>
+<h2>SYNOPSIS<a class="headerlink" href="#synopsis" title="Permalink to this heading"></a></h2>
 <p><strong>linkchecker</strong> [<em>options</em>] [<em>file-or-url</em>]…</p>
 </section>
 <section id="description">
-<h2>DESCRIPTION<a class="headerlink" href="#description" title="Permalink to this headline"></a></h2>
+<h2>DESCRIPTION<a class="headerlink" href="#description" title="Permalink to this heading"></a></h2>
 <p>LinkChecker features</p>
 <ul class="simple">
 <li><p>recursive and multithreaded checking</p></li>
@@ -376,7 +377,7 @@ local file links</p></li>
 </ul>
 </section>
 <section id="examples">
-<h2>EXAMPLES<a class="headerlink" href="#examples" title="Permalink to this headline"></a></h2>
+<h2>EXAMPLES<a class="headerlink" href="#examples" title="Permalink to this heading"></a></h2>
 <p>The most common use checks the given domain recursively:</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>linkchecker http://www.example.com/
 </pre></div>
@@ -411,9 +412,9 @@ checked as usual:</p>
 </div>
 </section>
 <section id="options">
-<h2>OPTIONS<a class="headerlink" href="#options" title="Permalink to this headline"></a></h2>
+<h2>OPTIONS<a class="headerlink" href="#options" title="Permalink to this heading"></a></h2>
 <section id="general-options">
-<h3>General options<a class="headerlink" href="#general-options" title="Permalink to this headline"></a></h3>
+<h3>General options<a class="headerlink" href="#general-options" title="Permalink to this heading"></a></h3>
 <dl class="std option">
 <dt class="sig sig-object std" id="cmdoption-f">
 <span id="cmdoption-config"></span><span class="sig-name descname"><span class="pre">-f</span></span><span class="sig-prename descclassname"> <span class="pre">FILENAME</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--config</span></span><span class="sig-prename descclassname"><span class="pre">=FILENAME</span></span><a class="headerlink" href="#cmdoption-f" title="Permalink to this definition"></a></dt>
@@ -454,9 +455,9 @@ threads is 10. To disable threading specify a non-positive number.</p>
 
 </section>
 <section id="output-options">
-<h3>Output options<a class="headerlink" href="#output-options" title="Permalink to this headline"></a></h3>
+<h3>Output options<a class="headerlink" href="#output-options" title="Permalink to this heading"></a></h3>
 <section id="url-checking-results">
-<h4>URL checking results<a class="headerlink" href="#url-checking-results" title="Permalink to this headline"></a></h4>
+<h4>URL checking results<a class="headerlink" href="#url-checking-results" title="Permalink to this heading"></a></h4>
 <dl class="std option">
 <dt class="sig sig-object std" id="cmdoption-F">
 <span id="cmdoption-file-output"></span><span class="sig-name descname"><span class="pre">-F</span></span><span class="sig-prename descclassname"> <span class="pre">TYPE[/ENCODING][/FILENAME]</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--file-output</span></span><span class="sig-prename descclassname"><span class="pre">=TYPE[/ENCODING][/FILENAME]</span></span><a class="headerlink" href="#cmdoption-F" title="Permalink to this definition"></a></dt>
@@ -500,7 +501,7 @@ your locale. Valid encodings are listed at
 
 </section>
 <section id="progress-updates">
-<h4>Progress updates<a class="headerlink" href="#progress-updates" title="Permalink to this headline"></a></h4>
+<h4>Progress updates<a class="headerlink" href="#progress-updates" title="Permalink to this heading"></a></h4>
 <dl class="std option">
 <dt class="sig sig-object std" id="cmdoption-no-status">
 <span class="sig-name descname"><span class="pre">--no-status</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-no-status" title="Permalink to this definition"></a></dt>
@@ -509,7 +510,7 @@ your locale. Valid encodings are listed at
 
 </section>
 <section id="application">
-<h4>Application<a class="headerlink" href="#application" title="Permalink to this headline"></a></h4>
+<h4>Application<a class="headerlink" href="#application" title="Permalink to this heading"></a></h4>
 <dl class="std option">
 <dt class="sig sig-object std" id="cmdoption-D">
 <span id="cmdoption-d"></span><span id="cmdoption-debug"></span><span class="sig-name descname"><span class="pre">-D</span></span><span class="sig-prename descclassname"> <span class="pre">STRING</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--debug</span></span><span class="sig-prename descclassname"><span class="pre">=STRING</span></span><a class="headerlink" href="#cmdoption-D" title="Permalink to this definition"></a></dt>
@@ -523,7 +524,7 @@ during debug runs.</p>
 
 </section>
 <section id="quiet">
-<h4>Quiet<a class="headerlink" href="#quiet" title="Permalink to this headline"></a></h4>
+<h4>Quiet<a class="headerlink" href="#quiet" title="Permalink to this heading"></a></h4>
 <dl class="std option">
 <dt class="sig sig-object std" id="cmdoption-q">
 <span id="cmdoption-quiet"></span><span class="sig-name descname"><span class="pre">-q</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--quiet</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-q" title="Permalink to this definition"></a></dt>
@@ -535,7 +536,7 @@ This is only useful with <a class="reference internal" href="#cmdoption-F"><code
 </section>
 </section>
 <section id="checking-options">
-<h3>Checking options<a class="headerlink" href="#checking-options" title="Permalink to this headline"></a></h3>
+<h3>Checking options<a class="headerlink" href="#checking-options" title="Permalink to this heading"></a></h3>
 <dl class="std option">
 <dt class="sig sig-object std" id="cmdoption-cookiefile">
 <span class="sig-name descname"><span class="pre">--cookiefile</span></span><span class="sig-prename descclassname"><span class="pre">=FILENAME</span></span><a class="headerlink" href="#cmdoption-cookiefile" title="Permalink to this definition"></a></dt>
@@ -621,13 +622,13 @@ the current version of LinkChecker.</p>
 </section>
 </section>
 <section id="configuration-files">
-<h2>CONFIGURATION FILES<a class="headerlink" href="#configuration-files" title="Permalink to this headline"></a></h2>
+<h2>CONFIGURATION FILES<a class="headerlink" href="#configuration-files" title="Permalink to this heading"></a></h2>
 <p>Configuration files can specify all options above. They can also specify
 some options that cannot be set on the command line. See
 <em class="manpage"><a class="manpage reference external" href="linkcheckerrc.html">linkcheckerrc(5)</a></em> for more info.</p>
 </section>
 <section id="output-types">
-<h2>OUTPUT TYPES<a class="headerlink" href="#output-types" title="Permalink to this headline"></a></h2>
+<h2>OUTPUT TYPES<a class="headerlink" href="#output-types" title="Permalink to this heading"></a></h2>
 <p>Note that by default only errors and warnings are logged. You should use
 the option <a class="reference internal" href="#cmdoption-0"><code class="xref std std-option docutils literal notranslate"><span class="pre">--verbose</span></code></a> to get the complete URL list, especially when
 outputting a sitemap graph format.</p>
@@ -665,14 +666,14 @@ invalid URLs and the number of times they have failed.</p>
 </dl>
 </section>
 <section id="regular-expressions">
-<h2>REGULAR EXPRESSIONS<a class="headerlink" href="#regular-expressions" title="Permalink to this headline"></a></h2>
+<h2>REGULAR EXPRESSIONS<a class="headerlink" href="#regular-expressions" title="Permalink to this heading"></a></h2>
 <p>LinkChecker accepts Python regular expressions. See
 <a class="reference external" href="https://docs.python.org/howto/regex.html">https://docs.python.org/howto/regex.html</a> for an introduction.
 An addition is that a leading exclamation mark negates the regular
 expression.</p>
 </section>
 <section id="cookie-files">
-<h2>COOKIE FILES<a class="headerlink" href="#cookie-files" title="Permalink to this headline"></a></h2>
+<h2>COOKIE FILES<a class="headerlink" href="#cookie-files" title="Permalink to this heading"></a></h2>
 <p>A cookie file contains standard HTTP header (RFC 2616) data with the
 following possible names:</p>
 <dl class="simple">
@@ -698,7 +699,7 @@ and one to all URLs starting with <strong>https://example.org/</strong>:</p>
 </div>
 </section>
 <section id="proxy-support">
-<h2>PROXY SUPPORT<a class="headerlink" href="#proxy-support" title="Permalink to this headline"></a></h2>
+<h2>PROXY SUPPORT<a class="headerlink" href="#proxy-support" title="Permalink to this heading"></a></h2>
 <p>To use a proxy on Unix or Windows set the <span class="target" id="index-1"></span><a class="reference internal" href="#envvar-http_proxy"><code class="xref std std-envvar docutils literal notranslate"><span class="pre">http_proxy</span></code></a> or
 <span class="target" id="index-2"></span><a class="reference internal" href="#envvar-https_proxy"><code class="xref std std-envvar docutils literal notranslate"><span class="pre">https_proxy</span></code></a> environment variables to the proxy URL. The URL should be
 of the form
@@ -724,7 +725,7 @@ alternative certificate bundle to be used with an HTTPS proxy.</p>
 </div>
 </section>
 <section id="performed-checks">
-<h2>PERFORMED CHECKS<a class="headerlink" href="#performed-checks" title="Permalink to this headline"></a></h2>
+<h2>PERFORMED CHECKS<a class="headerlink" href="#performed-checks" title="Permalink to this heading"></a></h2>
 <p>All URLs have to pass a preliminary syntax test. Minor quoting mistakes
 will issue a warning, all other invalid syntax issues are errors. After
 the syntax check passes, the URL is queued for connection checking. All
@@ -781,7 +782,7 @@ source file. The most prominent of them should be JavaScript links.</p>
 </dl>
 </section>
 <section id="plugins">
-<h2>PLUGINS<a class="headerlink" href="#plugins" title="Permalink to this headline"></a></h2>
+<h2>PLUGINS<a class="headerlink" href="#plugins" title="Permalink to this heading"></a></h2>
 <p>There are two plugin types: connection and content plugins. Connection
 plugins are run after a successful connection to the URL host. Content
 plugins are run if the URL type has content (mailto: URLs have no
@@ -792,7 +793,7 @@ documentation. All plugins are enabled via the <em class="manpage"><a class="man
 configuration file.</p>
 </section>
 <section id="recursion">
-<h2>RECURSION<a class="headerlink" href="#recursion" title="Permalink to this headline"></a></h2>
+<h2>RECURSION<a class="headerlink" href="#recursion" title="Permalink to this heading"></a></h2>
 <p>Before descending recursively into a URL, it has to fulfill several
 conditions. They are checked in this order:</p>
 <ol class="arabic simple">
@@ -815,7 +816,7 @@ directive in the HTML header data.</p></li>
 just a subset like <strong>index.htm</strong>.</p>
 </section>
 <section id="notes">
-<h2>NOTES<a class="headerlink" href="#notes" title="Permalink to this headline"></a></h2>
+<h2>NOTES<a class="headerlink" href="#notes" title="Permalink to this heading"></a></h2>
 <p>URLs on the commandline starting with <strong>ftp.</strong> are treated like
 <strong>ftp://ftp.</strong>, URLs starting with <strong>www.</strong> are treated like
 <strong>http://www.</strong>. You can also give local files as arguments.
@@ -831,7 +832,7 @@ automatically.</p>
 same as the host of the user browsing your pages.</p>
 </section>
 <section id="environment">
-<h2>ENVIRONMENT<a class="headerlink" href="#environment" title="Permalink to this headline"></a></h2>
+<h2>ENVIRONMENT<a class="headerlink" href="#environment" title="Permalink to this heading"></a></h2>
 <dl class="std envvar">
 <dt class="sig sig-object std" id="envvar-NNTP_SERVER">
 <span class="sig-name descname"><span class="pre">NNTP_SERVER</span></span><a class="headerlink" href="#envvar-NNTP_SERVER" title="Permalink to this definition"></a></dt>
@@ -864,13 +865,13 @@ same as the host of the user browsing your pages.</p>
 
 <dl class="std envvar">
 <dt class="sig sig-object std" id="envvar-LC_MESSAGES-LANG-LANGUAGE">
-<span id="envvar-LC_MESSAGES, LANG, LANGUAGE"></span><span class="sig-name descname"><span class="pre">LC_MESSAGES,</span> <span class="pre">LANG,</span> <span class="pre">LANGUAGE</span></span><a class="headerlink" href="#envvar-LC_MESSAGES-LANG-LANGUAGE" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">LC_MESSAGES,</span> <span class="pre">LANG,</span> <span class="pre">LANGUAGE</span></span><a class="headerlink" href="#envvar-LC_MESSAGES-LANG-LANGUAGE" title="Permalink to this definition"></a></dt>
 <dd><p>specify output language</p>
 </dd></dl>
 
 </section>
 <section id="return-value">
-<h2>RETURN VALUE<a class="headerlink" href="#return-value" title="Permalink to this headline"></a></h2>
+<h2>RETURN VALUE<a class="headerlink" href="#return-value" title="Permalink to this heading"></a></h2>
 <p>The return value is 2 when</p>
 <ul class="simple">
 <li><p>a program error occurred.</p></li>
@@ -883,19 +884,19 @@ same as the host of the user browsing your pages.</p>
 <p>Else the return value is zero.</p>
 </section>
 <section id="limitations">
-<h2>LIMITATIONS<a class="headerlink" href="#limitations" title="Permalink to this headline"></a></h2>
+<h2>LIMITATIONS<a class="headerlink" href="#limitations" title="Permalink to this heading"></a></h2>
 <p>LinkChecker consumes memory for each queued URL to check. With thousands
 of queued URLs the amount of consumed memory can become quite large.
 This might slow down the program or even the whole system.</p>
 </section>
 <section id="files">
-<h2>FILES<a class="headerlink" href="#files" title="Permalink to this headline"></a></h2>
+<h2>FILES<a class="headerlink" href="#files" title="Permalink to this heading"></a></h2>
 <p><strong>~/.linkchecker/linkcheckerrc</strong> - default configuration file</p>
 <p><strong>~/.linkchecker/failures</strong> - default failures logger output filename</p>
 <p><strong>linkchecker-out.</strong><em>TYPE</em> - default logger file output name</p>
 </section>
 <section id="see-also">
-<h2>SEE ALSO<a class="headerlink" href="#see-also" title="Permalink to this headline"></a></h2>
+<h2>SEE ALSO<a class="headerlink" href="#see-also" title="Permalink to this heading"></a></h2>
 <p><em class="manpage"><a class="manpage reference external" href="linkcheckerrc.html">linkcheckerrc(5)</a></em></p>
 <p><a class="reference external" href="https://docs.python.org/library/codecs.html#standard-encodings">https://docs.python.org/library/codecs.html#standard-encodings</a> - valid
 output encodings</p>

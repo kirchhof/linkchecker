@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>linkcheck.plugins.parseword &mdash; LinkChecker 10.1.0.post38+g30f16782 documentation</title>
+  <title>linkcheck.plugins.parseword &mdash; LinkChecker 10.1.0.post41+g58c874f4 documentation</title>
       <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../../_static/graphviz.css" type="text/css" />
@@ -16,6 +16,7 @@
         <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
         <script src="../../../_static/jquery.js"></script>
         <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../../../_static/doctools.js"></script>
     <script src="../../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../../genindex.html" />
@@ -31,7 +32,7 @@
             <img src="../../../_static/logo128x128.png" class="logo" alt="Logo"/>
           </a>
               <div class="version">
-                10.1.0.post38+g30f16782
+                10.1.0.post41+g58c874f4
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
@@ -466,7 +467,7 @@
     <span class="sd">&quot;&quot;&quot;Word parsing plugin.&quot;&quot;&quot;</span>
 
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">config</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;Check for pdfminer.&quot;&quot;&quot;</span>
+        <span class="sd">&quot;&quot;&quot;Check for Word.&quot;&quot;&quot;</span>
         <span class="n">init_win32com</span><span class="p">()</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">has_word</span><span class="p">():</span>
             <span class="n">log</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span><span class="n">LOG_PLUGIN</span><span class="p">,</span> <span class="s2">&quot;Microsoft Word not found for WordParser plugin&quot;</span><span class="p">)</span>
